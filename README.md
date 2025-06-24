@@ -2,7 +2,7 @@
   <img src="./.github/images/banner.png" alt="Browser MCP banner">
 </a>
 
-<h3 align="center">Browser MCP</h3>
+<h3 align="center">Browser MCP - Revised</h3>
 
 <p align="center">
   Automate your browser with AI.
@@ -22,6 +22,15 @@ Browser MCP is an MCP server + Chrome extension that allows you to automate your
 - 🔒 Private: Since automation happens locally, your browser activity stays on your device and isn't sent to remote servers.
 - 👤 Logged In: Uses your existing browser profile, keeping you logged into all your services.
 - 🥷🏼 Stealth: Avoids basic bot detection and CAPTCHAs by using your real browser fingerprint.
+
+## Changes in this Fork
+
+This is a revised version of Browser MCP that fixes the duplicate naming issue in MCP tool commands:
+- **Fixed**: Tool names appearing as `mcp__browsermcp__browser_*` (duplicate "browser")
+- **Solution**: Changed server name from "Browser MCP" to "browsermcp" to align with package naming conventions
+- **Result**: Tools now appear as `mcp__browsermcp__navigate`, `mcp__browsermcp__click`, etc.
+
+This fix was implemented with assistance from Claude (Anthropic) to improve the MCP integration experience.
 
 ## Contributing
 
